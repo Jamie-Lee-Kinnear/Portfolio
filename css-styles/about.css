@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 100vh; */
+  display: grid;
+  place-items: center;
+  background-image: url(/pictures/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Heading {
+  margin-top: 50px;
+}
+.flexcont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Table {
+  float: right;
+  margin-right: 200px;
+  font-size: x-large;
+}
+.myself {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.parent {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 4%;
+}
+
+.Bio {
+  width: 30%;
+  font-size: 20pt;
+  margin-left: 50px;
+  border-style: solid;
+  border-radius: 4%;
+}

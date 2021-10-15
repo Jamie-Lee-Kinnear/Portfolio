@@ -1,0 +1,28 @@
+li {
+  display: inline-block;
+}
+ul {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  height: 4%;
+  z-index: 40;
+}
+
+nav {
+  opacity: 0.5;
+}
