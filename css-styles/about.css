@@ -5,9 +5,6 @@
 }
 
 body {
-  /* height: 100vh; */
-  display: grid;
-  place-items: center;
   background-image: url(/pictures/Background.jpg);
   background-size: cover;
   background-position: center;
@@ -15,12 +12,14 @@ body {
 }
 .Heading {
   margin-top: 50px;
+  text-align: center;
 }
 .flexcont {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 #Table {
   float: right;
@@ -32,6 +31,7 @@ body {
   height: 300px;
   width: 300px;
   position: relative;
+  object-fit: cover;
 }
 .parent {
   display: flex;
@@ -41,9 +41,7 @@ body {
 }
 
 .Bio {
-  width: 30%;
   font-size: 20pt;
-  margin-left: 50px;
   border-style: solid;
   border-radius: 4%;
 }
